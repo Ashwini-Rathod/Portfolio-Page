@@ -1,0 +1,188 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    background: linear-gradient(to top, #cad315, white 50%, #cad315);
+    /* background: linear-gradient(to top, ); */
+    width: 100%;
+    height: 80vh;
+   
+
+}
+
+.name{
+    /* margin-left: 10px; */
+    font-size: 20px;
+}
+
+.banner{
+    background-image: url(./lappy-3.jpeg);
+    background-size: 100% 100%;
+    width: 90%;
+    height: 70vh;
+    margin: auto;
+
+}
+
+.header-div{
+    background-color: #cad315;
+    color: black;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.h1{
+    font-size: 40px;
+    font-weight: 20px;
+}
+
+.h3{
+    font-weight: lighter;
+    font-size: 22px;
+}
+
+.intro{
+    /* border: 2px solid black; */
+    width: 50%;
+    margin: auto;
+    /* background: linear-gradient(to bottom, #e4e978, white, #cad315);
+     */
+     /* background-color: #cad315; */
+}
+
+/* .intro, .header{
+    margin: 0px;
+    padding: 0px;
+} */
+
+.navigation-container{
+    /* margin-right: 10px; */
+    font-size: 18px;
+}
+
+.navigation{
+    display: inline;
+    
+
+}
+
+.nav-links{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* border: 2px solid black; */
+    background-color: rgb(112, 233, 241);
+    filter: brightness(85%);
+}
+
+.nav-links:hover{
+    font-size: 20px;
+}
+
+.welcome{
+    text-align: center;
+}
+
+.main{
+    /* border: 2px solid black; */
+    width: 90%;
+    margin: auto;
+}
+
+.page-image{
+    width: 50%;
+    height: 100%;
+    
+    
+}
+
+.image-p{
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* .container{
+    background: linear-gradient(to bottom, black, white);
+} */
+
+/* .box{
+    width: 100%;
+    height: 8vh;
+    background-color: #d37815;
+    /* border: 2px solid black; 
+} */
+
+.content-box{
+    width: 100%;
+    background-color: #cad315;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.box, .content-box{
+    margin: 0px;
+}
+
+.content{
+    text-align: center;
+    font-size: 22px;
+    /* border: 2px solid black; */
+    width: 70%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.abc{
+    text-align: center;
+    margin-top: 40px;
+    /* border: 2px solid black; */
+}
+
+.a-class{
+    /* border: 2px solid red; */
+    text-decoration: none;
+    color: black;
+    background-color: cornflowerblue;
+    padding: 12px;
+
+    font-size: 22px;
+   
+    
+}
+
+@media (max-width: 470px){
+    .a-class{
+        padding: 0px;
+    }
+
+    .welcome{
+        font-size: 18px;
+    }
+
+    .content{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 210px){
+    .welcome{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 550px){
+    .header-div{
+        flex-direction: column;
+    }
+
+    .header-div .navigation-container .nav-links{
+        padding: 0px;
+    }
+}
+
